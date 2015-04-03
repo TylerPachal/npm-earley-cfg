@@ -23,6 +23,13 @@ else{
     console.log('Invalid');
 }
 ```
+grammar.cfg
+```javascript
+S -> NP VP | VP
+NP -> D N | N | N NP
+VP -> V | V NP | V PP | V NP PP
+PP -> P NP
+```
 
 ## Download
 
